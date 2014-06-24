@@ -399,7 +399,7 @@ User.prototype.displayChatMessage = function(message){
 
 User.prototype.printCommands = function(){
     this.displayChatMessage( this.notifyTemplate( {message: "-----------"} ) );
-    this.displayChatMessage( this.notifyTemplate( {message: "Welcome to OpenTokRTC by TokBox"} ) );
+    this.displayChatMessage( this.notifyTemplate( {message: "Welcome buddy :)"} ) );
     this.displayChatMessage( this.notifyTemplate( {message: "Type /nick your_name to change your name"} ) );
     this.displayChatMessage( this.notifyTemplate( {message: "Type /list to see list of users in the room"} ) );
     this.displayChatMessage( this.notifyTemplate( {message: "Type /help to see a list of commands"} ) );
@@ -408,7 +408,7 @@ User.prototype.printCommands = function(){
     this.displayChatMessage( this.notifyTemplate( {message: "Type /unfocus to put everybody on equal standing"} ) );
     this.displayChatMessage( this.notifyTemplate( {message: "-----------"} ) );
     $(".chatMessage:first").css("margin-top", $("#title").outerHeight()+"px");
-    $(".chatMessage:contains('Welcome to OpenTokRTC')").find('em').css("color", "#000");
+    $(".chatMessage:contains('Welcome')").find('em').css("color", "#000");
 };
 
 window.User = User;

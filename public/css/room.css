@@ -62,7 +62,7 @@
     bottom: -1px;
     font-size: 20px;
     color: #444444;
-    font-family: "AvantGardeGothicITCW01X";
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: normal;
     border: 1px solid #dddddd;
     box-sizing: border-box;
@@ -86,7 +86,7 @@
     text-align: center;
     background-color: #EEE; }
     #controlsContainer .controlsBody .optionContainer .option {
-      font-family: "AvantGardeGothicITCW01X";
+      font-family: 'Open Sans Condensed', sans-serif;
       font-size: 20px;
       line-height: 100%;
       padding: 0 10px;
@@ -95,10 +95,10 @@
       color: #999999;
       cursor: pointer; }
       #controlsContainer .controlsBody .optionContainer .option:hover {
-        background-color: #1ba3dd;
+        background-color: #1fbaa5;
         color: white; }
     #controlsContainer .controlsBody .optionContainer .selected {
-      background-color: #1ba3dd;
+      background-color: #1fbaa5;
       color: white; }
     #controlsContainer .controlsBody .optionContainer #recordButton.selected {
       background-color: red; }
@@ -125,7 +125,7 @@
  */
 #chatroom {
   background: white;
-  border: 3px solid #1ba3dd;
+  border: 3px solid #1fbba6;
   position: absolute;
   top: 0;
   right: 0;
@@ -149,13 +149,13 @@
       color: #eeeef2;
       text-align: center; }
       #title #title_content p a {
-        color: #1ba3dd; }
+        color: #4a504f; }
     #title #title_content .titleText {
       width: 100%;
       min-height: 25px;
       text-align: center;
       color: white;
-      font-family: "AvantGardeGothicITCW01X";
+      font-family: 'Open Sans Condensed', sans-serif;
       font-weight: lighter;
       vertical-align: middle;
       line-height: 100%;
@@ -165,7 +165,7 @@
 #displayChat {
   padding: 5px;
   overflow: auto;
-  background: #EEE;
+  background: #ffffff;
   position: absolute;
   right: 0;
   left: 0;
@@ -173,7 +173,7 @@
   bottom: 40px; }
   #displayChat .chatEvent {
     text-align: center;
-    color: #aaa; }
+    color: #aaaaaa; }
   #displayChat .chatMessage {
     margin: 10px 5px 5px 5px;
     font-size: 15px;
@@ -211,13 +211,13 @@
     float: left; }
 
 body {
-  background: #433931 no-repeat center center fixed;
+  background: #4a504f no-repeat center center fixed;
   /* Old browsers */
-  background-image: radial-gradient(circle at 50% 50%, #433931, #1e1916);
-  background-image: -webkit-radial-gradient(50% 50%, circle, #433931, #1e1916);
-  background-image: -moz-radial-gradient(50% 50%, circle, #433931, #1e1916);
-  background-image: -ms-radial-gradient(50% 50%, circle, #433931, #1e1916);
-  background-image: -o-radial-gradient(50% 50%, circle, #433931, #1e1916); }
+  background-image: radial-gradient(circle at 50% 50%, #4a504f, #1e1916);
+  background-image: -webkit-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
+  background-image: -moz-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
+  background-image: -ms-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
+  background-image: -o-radial-gradient(50% 50%, circle, #4a504f, #1e1916); }
   body * {
     box-sizing: content-box; }
   body .container {

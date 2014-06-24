@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>WebRTC Demo - Video chatting in room <%= rid %></title>
+  <title>HackHands - Video chatting in room <%= rid %></title>
   <% include _header %>
   <link rel="stylesheet" href="/css/room.css" />
   <script src="//static.opentok.com/webrtc/v2.2/js/opentok.js"></script>
@@ -23,9 +23,8 @@
       <div id="title_content">
         <h1 class="titleText"><%= rid %></h1>
         <p>
-        Invite: 
-         <a href="mailto:?subject=Join me in a Video Conference&body=Please join me in a video conference at https://OpenTokRTC.com/<%= rid %>">
-            https://opentokrtc.com/<%= rid %>
+        Share to invite: 
+         <input onclick="this.select();" type='text' value='http://meliga.hackhands.io/<%= rid %>' />
          </a> 
         </p>
       </div>

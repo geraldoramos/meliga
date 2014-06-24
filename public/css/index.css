@@ -16,17 +16,18 @@
 /*
  * Elements
  */
+
 html, body {
   height: 100%; }
 
 body {
-  background: #433931 no-repeat center center fixed;
+  background: #4a504f no-repeat center center fixed;
   /* Old browsers */
-  background-image: radial-gradient(circle at 50% 50%, #433931, #1e1916);
-  background-image: -webkit-radial-gradient(50% 50%, circle, #433931, #1e1916);
-  background-image: -moz-radial-gradient(50% 50%, circle, #433931, #1e1916);
-  background-image: -ms-radial-gradient(50% 50%, circle, #433931, #1e1916);
-  background-image: -o-radial-gradient(50% 50%, circle, #433931, #1e1916);
+  background-image: radial-gradient(circle at 50% 50%, #4a504f, #1e1916);
+  background-image: -webkit-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
+  background-image: -moz-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
+  background-image: -ms-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
+  background-image: -o-radial-gradient(50% 50%, circle, #4a504f, #1e1916);
   min-height: 100%; }
 
 .container {
@@ -34,17 +35,17 @@ body {
   box-sizing: border-box;
   min-height: 100%;
   text-align: center; }
-  .container #opentokLogo {
+  .container #logo {
     position: fixed;
     bottom: 20px;
     right: 20px; }
 
 body, input {
-  font-family: "AvantGardeGothicITCW01X";
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #ffffff; }
 
 h1 {
-  font-family: "AvantGardeGothicITCW01X";
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 60px;
   line-height: 100%;
   margin-top: 0;
@@ -57,11 +58,11 @@ h1 {
   text-align: center; }
 
 #roomName {
-  background-color: transparent;
+  background-color: #ffffff;
   border-style: solid;
   border-width: 0px 0px 3px 0px;
-  border-color: #88889a;
-  color: #ffffff;
+  border-color: #f1f1f1;
+  color: #4a504f;
   font-size: 40px;
   line-height: 100%;
   text-align: center;
@@ -73,7 +74,7 @@ h1 {
   padding: 0; }
 
 .actionButton {
-  background-color: #ffffff;
+  background-color: #1fbaa5;
   height: 60px;
   box-sizing: border-box;
   line-height: 100%;
@@ -82,7 +83,7 @@ h1 {
   margin: 0 0 0 15px;
   padding: 10px 40px;
   text-align: center;
-  color: #454545;
+  color: #ffffff;
   opacity: 0.9;
   text-decoration: none; }
   .actionButton:focus {
